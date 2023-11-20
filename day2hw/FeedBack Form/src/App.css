@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-style: italic;
+}
+.f
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+  background-color: #3186d0;
+}
+fieldset{
+  padding: 30px;
+  background-color:#4f868b;
+  border-radius: 3px;
+
+
+}
+input{
+  width:260px;
+  height: 25px;
+  border-radius: 3px;
+  /* background-color: gray; */
+  color: black;
+}
+textarea{
+  width:260px;
+  height: 70px;
+  border-radius: 3px;
+  
+}
+button{
+  margin-top: 20px;
+  width:100px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: dimgray;
+}
+
+
