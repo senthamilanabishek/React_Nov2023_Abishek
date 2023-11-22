@@ -1,0 +1,49 @@
+body{
+  background-image:url("https://images.creativemarket.com/0.1.0/ps/7449695/910/607/m2/fpnw/wm1/yvdtovmz9yqulmkyorgxpdw7mjatr1gr7828raiiopaxfoxibxffltifaysms5ki-.jpg?1576083531&s=84b2ec6d9c180a7e1893ac2d7f75a974&fmt=webp");
+  /* background-repeat:no-repeat; */
+  background-size: cover;
+}
+.regbox1{
+  max-width:500px;
+  max-height:10000px;
+  background-color:grey;
+  margin-left:60%;
+  margin-top:150px;
+  border-radius:10px;
+  box-shadow:10px 10px 10px;
+}
+.reglable
+{
+   margin-left:10px;
+}
+.regpassword
+{
+  width:200px;
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid #ccc;
+  margin-bottom: 10px;
+}
+.regname
+{
+    width:200px;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+}
+.regform
+{
+   display:grid;
+   justify-content: center;
+   align-items: center;
+   grid-gap:15px;
+}
+.regsubmit
+{
+   width:100px;
+   padding:8px;
+   margin-left:30%;
+   margin-bottom:20px;
+}
+

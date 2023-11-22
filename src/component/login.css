@@ -1,0 +1,102 @@
+ .App
+ {
+    text-align: center;
+ }
+ /* body{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+    } */
+    .mainbox{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        /* margin:0;  */
+        width:100%;
+        background-image:url("https://t3.ftcdn.net/jpg/06/17/02/32/240_F_617023222_IxdK37zexW0V1XGC1utgVMKfAJ9x8xqb.jpg");
+        background-size:cover;
+}
+.box
+{
+    height:400px;
+    width: 400px;
+    border-radius:10px;
+    backdrop-filter: blur(80px);
+}
+.box1
+{
+    height:400px;
+    width: 400px;
+    background-image:url("https://t4.ftcdn.net/jpg/03/34/46/79/240_F_334467933_i3s2ZpiLbsbbBoumzGItThdQecE9KtQt.jpg");
+    background-size:cover; /* or background-size: 50%; or any other value that fits your design */
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:10px;
+    /* box-shadow:10px 10px 10px black; */
+}
+.heading
+{
+    text-align:center;
+}
+.name
+{
+    margin-top:50px;
+    width:200px;
+    margin-bottom: 10px;
+    /* box-sizing: border-box;  */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+.password
+{
+    margin-top:100px;
+    width:200px;
+    padding:10px;
+    border-radius: 50px;
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+}
+.button
+{
+    margin-top:10px;
+    padding: 10px;
+    border:none;
+    width:100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:15px;
+}
+.button:hover {
+    background-color: #45a049;
+} 
+a
+{
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s;
+}
+a:hover
+{
+    color:beige;
+}
+.anchor2
+{
+    margin-bottom:20px;
+    color:white;
+    font-size:19px;
+}
+.anchor2:hover
+{
+   font-size: 20px;
+}
+.forgot
+{
+    color:red;
+    font-size:18px;
+}
+.anchor1:hover
+{
+    font-size: 19px;
+}
