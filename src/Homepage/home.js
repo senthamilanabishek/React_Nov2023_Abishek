@@ -26,23 +26,31 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 const Home=()=>{
   return(
-    <>
+    <body className="hh">
+
     <div className="buttongrid">
-     <Button variant="contained" className="button" style={{marginBottom:"10px",backgroundColor:"green"}}>
+     <Button  href='/login'variant="contained" className="button" style={{marginTop:"10px",backgroundColor:"green",marginBottom:"10px"}}>
               Sign in
      </Button>
-     <Button variant="outlined" style={{marginBottom:"10px"}}>
+     <Button href='/Register'variant="outlined" style={{marginTop:"10px",marginBottom:"10px"}}>
                 Sign Up
       </Button>
     </div>
       <SearchAppBar/>
       <div className="page" >
-        {/* <div>
-          <img src="https://i.pinimg.com/originals/bb/ae/b2/bbaeb2c2a5d425ed3938093fced53e05.png" style={{marginTop:"10px",backgroundSize:"contain"}} 
-          width="450"/>
-        </div> */}
+          <div className="bigdiv1" style={{marginTop:"30px"}}>
+            <div>
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/nytbestseller/Childrens-Thematic-Tile-1-Rev.jpg"></img>
+            </div>
+            <div>
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/nytbestseller/Childrens-Thematic-Tile-3-_Rev.jpg"></img>
+            </div>
+            <div>
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/nytbestseller/Childrens-Thematic-Tile-2-_Rev.jpg"></img>
+            </div>
+          </div>
       </div>
-      <div className="bigdiv"  style={{backgroundColor:"violet"}}>
+      <div className="bigdiv"  style={{backgroundColor:"black"}}>
       <div style={{borderRadius:'10px',margin:'10px',border:'1px solid black',height:'700',width:'230px',backgroundColor:"white"}}>
               <div className='cardimg' style={{height:'250px',width:'300px',marginTop:"10p"}}>
               <img style={{marginLeft:'10px',width:'200px',height:'200px',backgroundSize:"cover"}} src="https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UY327_FMwebp_QL65_.jpg"/>
@@ -133,7 +141,7 @@ const Home=()=>{
             href="https://www.instagram.com/"
             color="inherit"
             sx={{ pl: 1, pr: 1 }}
-          >
+            >
             <Instagram />
           </Link>
           <Link href="https://www.twitter.com/" color="inherit">
@@ -153,7 +161,7 @@ const Home=()=>{
       </Box>
       </Container>
 
-</>
+  </body>
   );
 }
 export default Home;

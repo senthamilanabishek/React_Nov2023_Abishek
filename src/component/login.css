@@ -1,14 +1,9 @@
- .App
+ /* .App
  {
+} */
+.mainbox{
     text-align: center;
- }
- /* body{
-     display: flex;
-     justify-content:center;
-     align-items: center;
-    } */
-    .mainbox{
-        display: flex;
+    display: flex;
         justify-content:center;
         align-items: center;
         height: 100vh;
@@ -17,14 +12,14 @@
         background-image:url("https://t3.ftcdn.net/jpg/06/17/02/32/240_F_617023222_IxdK37zexW0V1XGC1utgVMKfAJ9x8xqb.jpg");
         background-size:cover;
 }
-.box
+.boxx
 {
     height:400px;
     width: 400px;
     border-radius:10px;
     backdrop-filter: blur(80px);
 }
-.box1
+.boxx1
 {
     height:400px;
     width: 400px;
